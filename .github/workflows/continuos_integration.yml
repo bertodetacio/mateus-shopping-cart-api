@@ -25,7 +25,6 @@ jobs:
         cache: maven
 
     - name: Build Application JAR
-      working-directory: ./mateus-shopping-cart-api
       run: mvn clean package
 
     - name: Docker Compose Build
